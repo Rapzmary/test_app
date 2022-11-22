@@ -64,7 +64,7 @@ class Map_location_state extends State<Map_location> {
         leading: IconButton(
             icon: Icon(
               Icons.arrow_back_ios_new,
-              color: MyStyle().blackColor,
+              color: MyStyle().whiteColor,
             ),
             onPressed: () async {
               Navigator.push(
